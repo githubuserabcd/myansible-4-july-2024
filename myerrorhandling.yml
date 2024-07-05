@@ -10,7 +10,7 @@
     apt: 
       name: tree
       statee: present 
-  - namme: i want to install wget 
+  - name: i want to install wget 
     apt: 
       name: wget
       state: present 
