@@ -2,8 +2,8 @@
 - hosts: mywebservers
   become: yes 
   tasks: 
-  - name: i want to start webserver 
-    service: 
+  - name: i want to install webserver 
+    apt: 
       name: "{{ mywebpackonubuntu= apache2 }}"
-      state: started 
+      state: starte
     when: ansible_os_family== "Debian"
