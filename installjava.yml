@@ -4,6 +4,6 @@
   tasks: 
   - name: i want to install java on ubuntu
     apt: 
-      name: "{{myjavapackonubuntu}}"
+      name: "{{myjavaonubuntu}}"
       state: present 
   when: ansible_os_family== "Debian"
