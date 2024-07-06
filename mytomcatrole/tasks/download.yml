@@ -13,4 +13,4 @@
 - name: extract tar file
   command:
      cmd: sudo tar xzvf /home/maha/apache-tomcat-10.0.20.tar.gz /opt/tomcat --strip-components=1
-     creates: /opt/tomcat/
+     creates: /opt/tomcat/LICENSE
