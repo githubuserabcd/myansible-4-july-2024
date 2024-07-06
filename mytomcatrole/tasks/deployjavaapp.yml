@@ -3,4 +3,4 @@
   get_url: 
      url: https://mystorageaccount4july.blob.core.windows.net/myfolder/mahaLogin-2.0.war
      dest: /opt/tomcat/webapps/mahaLogin-2.0.war
-     force_basic_auth:: yes
+     force_basic_auth: yes
