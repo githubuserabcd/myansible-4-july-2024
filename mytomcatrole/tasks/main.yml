@@ -1,2 +1,8 @@
 ---
 # tasks file for mytomcatrole
+- include_task: myuser.yml
+- include_task: installjava.yml
+- include_task: download.yml 
+- include_task: permission.yml 
+- include_task: dashboard.yml
+- include_task: tomcatstart.yml
